@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
+
+/* for erverything = * */
+/* * {
+    border: 1px solid rgb(230, 18, 18);
+} */
 html {
     font-family: 'Raleway', sans-serif;
     background-color: #fff;
@@ -7,24 +13,33 @@ html {
 
 body {
     margin: 0;
+    background-color: #f0f0f0;
 }
 
 header {
     text-align: center;
     background-color: #6b469a;
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Monoton', cursive;
+    font-size: 90px;
 }
 
 h1 {
     font-size: 2.5rem;
     line-height: 2.5rem;;
     color: #fff;
+    /* margin: 20px;
+    padding: 20px; */
 }
 
 h2 {
     font-size: 3rem;
     line-height: 3rem;
     color: #fff;
+    /* margin: 15px;
+    padding: 20px; */
+
 }
 
 nav {
@@ -37,6 +52,7 @@ a {
     color: #fff;
     text-decoration: none;
     padding: 5px;
+    margin: 30px;
 }
 
 a:hover {
@@ -63,4 +79,15 @@ footer {
     color: #fff;
 }
 
-/* Your code here */
+nav a {
+    display: block;
+}
+
+.small-img {
+    width: 300px;
+    height: 200px;
+    border: 3px dashed #FFA500;
+}
+
+
+
