@@ -30,3 +30,111 @@ div {
 }
 
 /*** Your code here ***/
+
+
+@media (min-width: 576px) {
+
+        body {
+            background-color: #a216e4;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 4rem;
+        }
+    
+        div {
+            height: 100px;
+        }
+    
+        #div-1,
+        #div-2 {
+            background-color: #a216e4;
+            display: inline-block; 
+        }
+        
+        #div-3,
+        #div-4 {
+            background-color: #cbf10d;
+            display: inline-block;
+    
+        }
+        
+    }
+    
+    @media (min-width: 768px) {
+        body {
+            background-color: #080c0e;
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+        }
+    
+        div {
+            height: 100px;
+        }
+    
+        #div-1,
+        #div-2,
+        #div-3,
+        #div-4 {
+            background-color: #080c0e;
+            display: inline;  
+        }       
+    }
+    @media (min-width: 992px) {
+        body {
+            background-color: #bfd3d8;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+        }
+    
+        div {
+            height: 100px;
+        }
+    
+        #div-1,
+        #div-2,
+        #div-3,
+        #div-4 {
+            background-color: #bfd3d8;
+            display: inline;  
+        }       
+    }
+
+    @media (min-width: 1200px) {
+        body {
+            background-color: #f70408;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 8rem;
+        }
+    
+        div {
+            height: 200px;
+        }
+    
+        #div-1,
+        #div-2,
+        #div-3,
+        #div-4 {
+            background-color: #f70408;
+            display: inline;  
+        }       
+    }
+
+    @media (min-width: 1440px) {
+        body {
+            background-color: #04f739;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10rem;
+        }
+    
+        div {
+            height: 300px;
+        }
+    
+        #div-1,
+        #div-2,
+        #div-3,
+        #div-4 {
+            background-color: #04f739;
+            display: inline;  
+        }       
+    }
